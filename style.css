@@ -1,0 +1,110 @@
+
+body{   
+      background-color: #f3f3f3;
+      background-attachment:scroll;
+      background-position: center;
+}
+/*Left Side Bar*/
+.left{
+      display: inline-block;
+      position: fixed;
+}
+#header {
+      background-color: rgb(34, 33, 33);
+      width: 300px;
+      margin-left: 60px;
+      height: 700px;
+  }
+  #profile{
+      margin: 68px 68px 20px 68px;
+      width: 150px;
+      height: 150px;
+      border: 7px solid #b2b1b1;
+      border-radius: 100px;
+  }
+  .social{
+        margin: 0px 78px;
+  }
+  .social img{
+        width: 35px;
+        height: 35px;
+        margin: 0px 5px;
+        cursor: pointer;
+  }
+  #left-text {
+      color: white;
+      text-align: center;
+      font-size: large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about{
+      color: white;
+      margin: 2.4rem;
+      text-align: center;
+      font-family: sans-serif;
+}
+/*Main Content*/
+.right{  
+      float: right;
+      margin-right: 11%;    
+}
+.bg{
+      
+      background-color: black;
+      border-radius: 30px;
+      color: white;
+      width:900px;
+      height:80px;
+      text-align: center;
+      padding-top: 1px;
+      margin: 15px 0px;
+}
+.info{
+      border: 7px solid;
+      border-radius: 30px;
+      font-family: cursive;
+      background-color: #bcbcbc;
+}
+.data{
+      margin-left: 80px;
+}
+.personal{
+      width:890px;
+      height:300px;
+}
+.academic{
+      width:890px;
+      height:450px; 
+}
+.extra-activity{ 
+      width:890px;
+      height:200px;
+}
+.certificate{
+      width:890px;
+      height:350px;
+}
+.divide{
+      display: flex;
+      text-align: center;
+}
+#space{
+      margin-right: 15px;
+}
+.skill{
+      display: inline-block;
+      width : 420px;
+      height:290px;     
+}
+
+.info img{
+      width: 70px;
+      height: 70px;
+      margin-bottom: 35px;
+      position: relative;
+      top: 40px;
+}
+.interest{
+      width: 280px;
+      height:200px;
+}
